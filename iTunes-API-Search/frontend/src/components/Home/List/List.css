@@ -1,0 +1,14 @@
+.music-list {
+    margin-top: 2rem;
+}
+
+.music-item {
+    transition: transform 0.3s;
+    width: 18rem;
+    height: 24rem;
+}
+
+.music-item:hover {
+    transform: translateY(-5px);
+}
+

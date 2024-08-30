@@ -1,0 +1,38 @@
+/* src/components/Header/Header.css */
+.navbar {
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #fff !important; /* Ensures the text color is white */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Bootstrap warning color for hover effect */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75); /* Slightly lighter color for inactive links */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff; /* Bright white for active links */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.navbar .container {
+    max-width: 1200px; /* Restricts the container width for better alignment */
+}
+
+.navbar .navbar-nav {
+    flex-direction: row; /* Keeps nav items inline */
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-right: 1rem; /* Adds space between nav items */
+}
